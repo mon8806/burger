@@ -24,7 +24,7 @@ https://mon8806.github.io/burger/
     * mysql
 * Orm
 * Models
-
+* heroku
 
 ## Role
 Installed npm for the different info the user would need. Required info from package.json. Created command lines that will trigger function.

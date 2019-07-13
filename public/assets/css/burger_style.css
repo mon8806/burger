@@ -1,0 +1,13 @@
+body {
+    background-color: #f4c242;
+    text-align: center;
+    color: red;
+  }
+  
+  ul{
+    list-style: none;
+
+  }
+  img {
+    width: 15%;
+  }

@@ -2,44 +2,30 @@
 
 ## Project Overview
 
-*  With node.js, we're grabbing info from the package.json and displaying the info on the terminal with command lines.
-*  The info that the user needs to grab is being 'require' and stored in respective variables.
-    *  Take in two arguments, first will be the action and second will be the function.
-    *  Next are the four functions that correlate with the four command lines.
-        *  So when the user inputs the command lines in the terminal with node.js they should have the info displayed on the terminal.
-*  To run the app, the user will input node liri.js plus one of the four command lines and what they're looking for which will then display the info on the terminal.
+*  With node.js and all the npm's we created a database where the user can add a burger to be eaten or leave intact.
 
+*  To run the app, the user will input node server.js which will make the server live.  Once the user goes to the localhost:8080 the page will load up. The user has a choice to add burger that will be devoured up or stay intact.  If the user wants to devour the burger, they will click the devour button and the burger will be more to the "Burgers devoured" side.
 ## Gifs for App Function
 
-* command: "concert-this"
+* Add Burger to be devoured or intact.
 
-![](https://i.gyazo.com/22e3ad3601e298ddcddef589ffb2417a.gif) 
-
-* command: "spotify-this-song"
-
-![](https://i.gyazo.com/36e527754b53aeab1626faea6a5562f5.gif)
-
-* command: "movie-this"
-
-![](https://i.gyazo.com/d2482920ef8f2cfd76f943aa7f42b148.gif)
-
-* command: "do-what-it-says"
-
-![](https://i.gyazo.com/87cf70d89f833cfaea1d75bae826161e.gif)
+![](https://i.gyazo.com/c4356c6b5ac536e24a6781690d5fb495.gif) 
 
 
 ## Link to Deployed App
 
-https://github.com/mon8806/liri-node-app
+https://github.com/mon8806/burger
 
 ## Technologies Used:
-* Node-Spotify-API
-* Axios
-    * OMDB API
-    * Bands in Town API
-* Moment.js
-* DoyEnv
-* NPM
+* Node
+* Npm
+    * Express
+    * Express-handlebars
+    * mysql
+* Orm
+* Models
+
 
 ## Role
 Installed npm for the different info the user would need. Required info from package.json. Created command lines that will trigger function.
+

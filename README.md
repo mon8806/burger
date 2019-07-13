@@ -14,7 +14,7 @@
 
 ## Link to Deployed App
 
-https://github.com/mon8806/burger
+https://mon8806.github.io/burger/
 
 ## Technologies Used:
 * Node
